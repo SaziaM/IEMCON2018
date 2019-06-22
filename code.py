@@ -25,7 +25,7 @@ from pybrain.tools.shortcuts import buildNetwork
 from pybrain.supervised.trainers import BackpropTrainer
 
 # code from Watson Studio insert to code
-##################### Code needs to inserted for attaching the data
+##################### Code needs to be inserted for attaching the data
 df_data_1 = pd.read_csv(body)
 # load the dataset
 dataset = df_data_1.as_matrix()
